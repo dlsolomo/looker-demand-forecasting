@@ -15,3 +15,5 @@ persist_with: retail_demo_demand_forecasting_default_datagroup
 explore: forecasted_sales {}
 
 explore: stores {}
+
+explore: product1_demand_forecast {}
