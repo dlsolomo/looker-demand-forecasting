@@ -1,4 +1,4 @@
-view: product1_demand_forecast {
+view: product1 {
   sql_table_name: `midatlantic-retail-master-demo.demand_forecasting.product1_demand_forecast`
     ;;
 
