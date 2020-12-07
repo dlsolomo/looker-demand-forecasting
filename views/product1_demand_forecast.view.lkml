@@ -17,7 +17,7 @@ view: product1_demand_forecast {
     sql: ${TABLE}._Sales_Calendar_Week ;;
   }
 
-  dimension: forecast_yes_no {
+  dimension: yesno {
     type: yesno
     sql: ${TABLE}._Sales_Forecasted__Yes___No_ ;;
   }
