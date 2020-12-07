@@ -16,4 +16,4 @@ explore: forecasted_sales {}
 
 explore: stores {}
 
-explore: product1 {}
+explore: product1a {}
