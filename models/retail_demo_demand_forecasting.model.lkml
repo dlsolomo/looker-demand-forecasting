@@ -17,3 +17,5 @@ explore: forecasted_sales {}
 explore: stores {}
 
 explore: product1a {}
+
+#explore: product_images {}
