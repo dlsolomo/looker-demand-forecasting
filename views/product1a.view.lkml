@@ -46,7 +46,14 @@ view: product1a {
     type: yesno
     sql: ${TABLE}.yesno ;;
   }
-
+  measure:  total_actual_plus_forecasted{
+    type: number
+    sql: ${total_units_sold} ;;
+  }
+  measure:  all_units{
+    type: number
+    sql: ${total_units} ;;
+  }
   measure: count {
     type: count
     drill_fields: []
