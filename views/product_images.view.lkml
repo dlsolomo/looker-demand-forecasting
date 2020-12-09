@@ -1,5 +1,12 @@
-view: images {
-  # # You can specify the table name if it's different from the view name:
+view: product_images {
+  dimension: looker_image {
+    type: string
+    sql: ${TABLE}.homepage_url;;
+    html: <img src="https://logo-core.clearbit.com/looker.com" /> ;;
+  }
+
+
+ # # You can specify the table name if it's different from the view name:
   # sql_table_name: my_schema_name.tester ;;
   #
   # # Define your dimensions and measures here, like this:
