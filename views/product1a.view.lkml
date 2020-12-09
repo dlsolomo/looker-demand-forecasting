@@ -32,12 +32,12 @@ view: product1a {
     sql: ${TABLE}.sales_calendar_week ;;
   }
 
-  measure: total_units {
+  dimension: total_units {
     type: number
     sql: ${TABLE}.total_units ;;
   }
 
-  measure: total_units_sold {
+  dimension: total_units_sold {
     type: number
     sql: ${TABLE}.total_units_sold ;;
   }
