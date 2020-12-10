@@ -19,3 +19,5 @@ explore: stores {}
 explore: product1a {}
 
 explore: product_images {}
+
+explore: brand_demand {}
